@@ -15,10 +15,10 @@ Museo 3D
     - Bauhaus
       - Historia y relevancia
       - imagenes Bauhaus
-   - Georg Muche
+    - Georg Muche
       - retrato
       - vida y obras
-  - Alfred Arndt
+    - Alfred Arndt
       - retrato
       - vida y obras
   - Museo
