@@ -26,3 +26,6 @@ Museo 3D
       - Salas
   - Tienda
       - artefactos a la venta
+
+- Mapa del sitio: ![](img/maqueta.jpg)
+      
