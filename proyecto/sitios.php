@@ -3,16 +3,18 @@
 <html lang="es">
   <head>
     <?php require 'app/components/meta_tags.php'; ?>
-    <title>Studio BAD DOG</title>
+    <title>Tipos de Sitios Web | <?=SITE['name']?></title>
+    <meta name="description" content="Desarrollo sitios de una sóla y de múltiples páginas.">
   </head>
   <body class="pt-5">
     <?php require 'app/components/navbar.php'; ?>
-    <div class="container pt-5">
-      <h1>Sección Sitios</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consectetur provident aspernatur dolorum non facere minima, ad iste error iusto in expedita, quibusdam id laboriosam quo inventore, repellat nam dicta!
-      </p>
-    </div>
+    <main class="pt-5">
+      <?php
+        require 'app/components/sites_carousel.php';
+        require 'app/components/single_page.php';
+        require 'app/components/multi_page.php';
+      ?>
+    </main>
     <?php require 'app/components/footer.php'; ?>
     <?php require 'app/components/scripts.php'; ?>
   </body>
