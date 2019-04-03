@@ -16,7 +16,7 @@
             Bauhaus
           </a>
           <div class="dropdown-menu" aria-labelledby="menu-sitios">
-            <a class="dropdown-item" href="components/multi_page.php">Georg Muche</a>
+            <a class="dropdown-item" href="alfred.php">Georg Muche</a>
             <a class="dropdown-item" href="alfred.php">Alfred Arndt</a>
           </div>
         </li>

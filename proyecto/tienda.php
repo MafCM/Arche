@@ -9,29 +9,110 @@
   <body class="pt-5">
     <?php require 'app/components/navbar.php'; ?>
     <main class="pt-5 bg-color">
-      <section class="georg full-screen d-lg-flex align-items-lg-center">
+      <section class="georg col-12 col-lg-12 align-items-lg-center">
 
       </section>
       <section class="container">
         <h1 class="text-center">Artículos a la venta</h1>
 
-        <div id="servicios" class="container text-dark">
-          <div class="row justify-content-center align-items-center full-screen">
-            <?php get_service_cards( SITE['service_cards'] ); ?>
+        <div class="col-sm-12 col-lg-12 flex">
+            <div class="col-sm-12 col-lg-12 flex" >
+            <div class="col-sm-4 col-lg-4 responsive">
+              <div class="gallery">
+                <a target="_blank" href="img/haus2.jpg">
+                  <img class="img-fluid" src="img/2.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+            <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-4 responsive">
+              <div class="gallery">
+                <a target="_blank" href="img/haus2.jpg">
+                  <img class="img-fluid" src="img/2.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-lg-4 responsive">
+              <div class="gallery">
+                <a target="_blank" href="img/haus2.jpg">
+                  <img class="img-fluid" src="img/2.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div id="servicios" class="container text-dark">
-          <div class="row justify-content-center align-items-center full-screen">
-            <?php get_service_cards( SITE['service_cards'] ); ?>
-          </div>
+        <div class="col-sm-12 col-lg-12 flex">
+              <div class="col-sm-12 col-lg-12 flex" >
+              <div class="col-sm-4 col-lg-4 responsive">
+                <div class="gallery">
+                  <a target="_blank" href="img/haus2.jpg">
+                    <img class="img-fluid" src="img/2.jpg" alt="Cinque Terre" width="600" height="400">
+                  </a>
+              <div class="desc">Add a description of the image here</div>
+                </div>
+                </div>
+
+                <div class="col-sm-4 col-lg-4 responsive">
+                  <div class="gallery">
+                    <a target="_blank" href="img/haus2.jpg">
+                      <img class="img-fluid" src="img/2.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                <div class="desc">Add a description of the image here</div>
+                  </div>
+                  </div>
+
+                  <div class="col-sm-4 col-lg-4 responsive">
+                    <div class="gallery">
+                      <a target="_blank" href="img/haus2.jpg">
+                        <img class="img-fluid" src="img/2.jpg" alt="Cinque Terre" width="600" height="400">
+                      </a>
+                  <div class="desc">Add a description of the image here</div>
+                    </div>
+                    </div>
+
+                </div>
+                </div>
+
+
+                <div class="col-sm-12 col-lg-12 flex">
+                      <div class="col-sm-12 col-lg-12 flex" >
+                      <div class="col-sm-4 col-lg-4 responsive">
+                        <div class="gallery">
+                          <a target="_blank" href="img/haus2.jpg">
+                            <img class="img-fluid" src="img/2.jpg" alt="Cinque Terre" width="600" height="400">
+                          </a>
+                      <div class="desc">Add a description of the image here</div>
+                        </div>
+                        </div>
+
+                        <div class="col-sm-4 col-lg-4 responsive">
+                          <div class="gallery">
+                            <a target="_blank" href="img/haus2.jpg">
+                              <img class="img-fluid" src="img/2.jpg" alt="Cinque Terre" width="600" height="400">
+                            </a>
+                        <div class="desc">Add a description of the image here</div>
+                          </div>
+                          </div>
+
+                          <div class="col-sm-4 col-lg-4 responsive">
+                            <div class="gallery">
+                              <a target="_blank" href="img/haus2.jpg">
+                                <img class="img-fluid" src="img/2.jpg" alt="Cinque Terre" width="600" height="400">
+                              </a>
+                          <div class="desc">Add a description of the image here</div>
+                            </div>
+                            </div>
+
+                        </div>
+                        </div>
+
+
+
         </div>
 
-        <div id="servicios" class="container text-dark">
-          <div class="row justify-content-center align-items-center full-screen">
-            <?php get_service_cards( SITE['service_cards'] ); ?>
-          </div>
-        </div>
 
       </section>
 

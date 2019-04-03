@@ -3,7 +3,7 @@
   --first-color: #c11625;  /* rojo*/
   --first-modal-color: #e8c736; /* amarillo*/
   --second-color: rgba(0, 0, 0,.90); /*negro transparente*/
-  --second-modal-color: rgba(20, 25, 45, .75);
+  --second-modal-color: rgba(20, 25, 45, .75); /*azul oscuro grisoso*/
   --third-color: #195b94; /*azulito*/
   --third-modal-color: rgba(80, 20, 100, .75); /*azul marino transparente*/
   --link-color: #ddb72a; /*azul*/
@@ -116,6 +116,7 @@ a:hover { color: var(--first-color); }
   background-color: var(--bg-modal-color);
 }
 .alfred{
+  height: 350px;
   background-image: url('../img/alfred.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,12 +127,15 @@ a:hover { color: var(--first-color); }
   background-size: cover;
 }
 .georg{
+  height: 350px;
   background-image: url('../img/georg.png');
   background-repeat: no-repeat;
   background-size: cover;
 
 }
-
+.flex{
+  display: flex;
+}
 .multi-page {
   background-image: url('../img/site-multipage.jpg');
   background-repeat: no-repeat;
@@ -140,6 +144,9 @@ a:hover { color: var(--first-color); }
 .heroscreen_background video {
   height: 100%;
   width: 100%;
+}
+'service_cards'{
+  background-color: var(--first-color);
 }
 /* ********** Media Queries Small ********** */
 @media (min-width: 576px) {

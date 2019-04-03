@@ -1,4 +1,4 @@
-<section class="alfred full-screen d-lg-flex align-items-lg-center">
+<section class="alfred col-12 col-lg-12 align-items-lg-center">
 
 </section>
 <section class="single-page">
