@@ -8,16 +8,16 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item p-2">
+        <!-- <li class="nav-item p-2">
           <a class="nav-link" href="acerca.php">Acerca de</a>
-        </li>
+        </li> -->
         <li class="nav-item p-2 dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="menu-sitios" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="bauhaus.php" id="menu-sitios" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Bauhaus
           </a>
           <div class="dropdown-menu" aria-labelledby="menu-sitios">
-            <a class="dropdown-item" href="#">Georg Muche</a>
-            <a class="dropdown-item" href="#">Alfred Arndt</a>
+            <a class="dropdown-item" href="components/multi_page.php">Georg Muche</a>
+            <a class="dropdown-item" href="alfred.php">Alfred Arndt</a>
           </div>
         </li>
         <li class="nav-item p-2">
@@ -25,6 +25,9 @@
         </li>
         <li class="nav-item p-2">
           <a class="nav-link" href="tienda.php">Tienda</a>
+        </li>
+        <li class="nav-item p-2">
+          <a class="nav-link" href="contacto.php">Contacto</a>
         </li>
 
         <li class="nav-item p-2">

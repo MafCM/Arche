@@ -1,15 +1,15 @@
 /* ********** Custom Properties ********** */
 :root {
-  --first-color: rgb(217, 0, 98);
-  --first-modal-color: rgba(217, 0, 98, .75);
-  --second-color: rgb(20, 25, 45);
+  --first-color: #c11625;  /* rojo*/
+  --first-modal-color: #e8c736; /* amarillo*/
+  --second-color: rgba(0, 0, 0,.90); /*negro transparente*/
   --second-modal-color: rgba(20, 25, 45, .75);
-  --third-color: rgb(80, 20, 100);
-  --third-modal-color: rgba(80, 20, 100, .75);
-  --link-color: rgb(80, 158, 227);
-  --bg-color: rgb(245, 245, 245);
+  --third-color: #195b94; /*azulito*/
+  --third-modal-color: rgba(80, 20, 100, .75); /*azul marino transparente*/
+  --link-color: #ddb72a; /*azul*/
+  --bg-color: rgb(245, 245, 245); /*blanco*/
   --bg-modal-color: rgba(245, 245, 245, .75);
-
+  --bg-home-color: #efe1d2;
   --navbar-height: 64px;
 }
 
@@ -22,7 +22,12 @@ a {
   color: var(--link-color);
   transition: all .3s ease-out;
 }
-
+h2 {
+  color:var(--first-color);
+}
+p{
+  color:var(--second-color);
+}
 a:hover { color: var(--first-color); }
 
 /* ********** Bootstrap Styles ********** */
@@ -77,7 +82,7 @@ a:hover { color: var(--first-color); }
 }
 
 .card-text a {
-  color: var(--success);
+  color: var(--second-color);
 }
 
 .card-text a:hover {
@@ -96,9 +101,7 @@ a:hover { color: var(--first-color); }
 }
 
 .gradient-aqua {
-  background-color: rgb(108, 130, 145);
-  background-image: linear-gradient(135deg, rgba(47, 145, 224, .91), rgba(7,31,51,.97) 79%);
-  background-image: linear-gradient(131deg, rgba(28, 118, 173, .92), rgba(83,184,152,1));
+  background-color: var(--bg-home-color);
 }
 
 #servicios img {
@@ -106,17 +109,27 @@ a:hover { color: var(--first-color); }
 }
 
 .bg-color {
-  background-color: var(--bg-color);
+  background-color: var(--bg-home-color);
 }
 
 .bg-modal-color {
   background-color: var(--bg-modal-color);
 }
-
+.alfred{
+  background-image: url('../img/alfred.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .single-page {
   background-image: url('../img/site-singlepage.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+.georg{
+  background-image: url('../img/georg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .multi-page {
@@ -124,7 +137,10 @@ a:hover { color: var(--first-color); }
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.heroscreen_background video {
+  height: 100%;
+  width: 100%;
+}
 /* ********** Media Queries Small ********** */
 @media (min-width: 576px) {
 

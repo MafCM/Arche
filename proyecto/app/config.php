@@ -30,27 +30,27 @@ define('SITE', array(
   ),
   'service_cards' => array(
     array(
-      'title' => 'Nuevo sitio web',
-      'text' => '¿Necesitas un (nuevo) sitio web 100% responsivo?',
-      'img' => 'https://placeimg.com/200/200/animals',
-      'link' => 'sitios.php'
+      'title' => 'Bauhaus',
+      'text' => 'Escuela de diseño que cambio el arte y diseño ',
+      'img' => 'img/001.png',
+      'link' => 'bauhaus.php'
     ),
     array(
-      'title' => 'Clientes',
-      'text' => 'Clientes felices y proyectos hermosos.',
-      'img' => 'https://placeimg.com/200/200/nature',
-      'link' => 'clientes.php'
+      'title' => 'Museo',
+      'text' => 'Visita el recorrido del museo 3D digital ',
+      'img' => 'img/001.png',
+      'link' => 'museo.php'
     ),
     array(
-      'title' => 'Flujo de Trabajo',
-      'text' => 'Escucho tus necesidades. Discutamos tu proyecto.',
-      'img' => 'https://placeimg.com/200/200/people',
-      'link' => 'comencemos.php'
+      'title' => 'Tienda',
+      'text' => 'Visita la tienda de productos del museo',
+      'img' => 'img/001.png',
+      'link' => 'museo.php'
     ),
     array(
-      'title' => '¿Interesado?',
-      'text' => 'Comencemos con tu nuevo proyecto.',
-      'img' => 'https://placeimg.com/200/200/arch',
+      'title' => 'Contacto',
+      'text' => 'Queremos escucharte tus preguntas y comentarios',
+      'img' => 'img/001.png',
       'link' => 'contacto.php'
     )
   ),

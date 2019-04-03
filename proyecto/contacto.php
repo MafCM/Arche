@@ -16,7 +16,7 @@
             ¡Envíame tus comentarios!
           </p>
           <p>
-            Para más información, puedes contactarme en <a href="mailto:info@studiobaddog.com">info@studiobaddog.com</a>.
+            Para más información, puedes contactarme en <a href="mailto:arche@estudiantes.iconos.edu.mx  ">arche@estudiantes.iconos.edu.mx</a>.
           </p>
         </article>
         <article class="row">
